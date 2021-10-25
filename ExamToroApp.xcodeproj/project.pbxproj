@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E73EFF8027267C250070B805 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73EFF7F27267C250070B805 /* UIViewController.swift */; };
+		E73EFF8327269B860070B805 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E73EFF8527269B860070B805 /* Localizable.strings */; };
 		E782E66E27228FA900E96142 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E782E66D27228FA900E96142 /* AppDelegate.swift */; };
 		E782E67027228FA900E96142 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E782E66F27228FA900E96142 /* SceneDelegate.swift */; };
 		E782E67227228FA900E96142 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E782E67127228FA900E96142 /* ViewController.swift */; };
@@ -18,6 +20,11 @@
 		E782E69227228FAD00E96142 /* ExamToroAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E782E69127228FAD00E96142 /* ExamToroAppUITests.swift */; };
 		E782E69427228FAD00E96142 /* ExamToroAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E782E69327228FAD00E96142 /* ExamToroAppUITestsLaunchTests.swift */; };
 		E782E6A22722902400E96142 /* MemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E782E6A12722902400E96142 /* MemberViewController.swift */; };
+		E782E6A4272299F300E96142 /* MemberFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E782E6A3272299F300E96142 /* MemberFormViewController.swift */; };
+		E782E6B02722A8EE00E96142 /* MemberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E782E6AF2722A8EE00E96142 /* MemberTableViewCell.swift */; };
+		E782E6B32722AE2D00E96142 /* Member+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E782E6B12722AE2D00E96142 /* Member+CoreDataClass.swift */; };
+		E782E6B42722AE2D00E96142 /* Member+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E782E6B22722AE2D00E96142 /* Member+CoreDataProperties.swift */; };
+		E782E6B72722C2E400E96142 /* Genders.swift in Sources */ = {isa = PBXBuildFile; fileRef = E782E6B62722C2E300E96142 /* Genders.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E73EFF7F27267C250070B805 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		E73EFF8427269B860070B805 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E782E66A27228FA900E96142 /* ExamToroApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExamToroApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E782E66D27228FA900E96142 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E782E66F27228FA900E96142 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +62,11 @@
 		E782E69127228FAD00E96142 /* ExamToroAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamToroAppUITests.swift; sourceTree = "<group>"; };
 		E782E69327228FAD00E96142 /* ExamToroAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamToroAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E782E6A12722902400E96142 /* MemberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberViewController.swift; sourceTree = "<group>"; };
+		E782E6A3272299F300E96142 /* MemberFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberFormViewController.swift; sourceTree = "<group>"; };
+		E782E6AF2722A8EE00E96142 /* MemberTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberTableViewCell.swift; sourceTree = "<group>"; };
+		E782E6B12722AE2D00E96142 /* Member+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Member+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E782E6B22722AE2D00E96142 /* Member+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Member+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E782E6B62722C2E300E96142 /* Genders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genders.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +94,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E73EFF7E27267BEF0070B805 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E73EFF7F27267C250070B805 /* UIViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		E782E66127228FA900E96142 = {
 			isa = PBXGroup;
 			children = (
+				E782E6B12722AE2D00E96142 /* Member+CoreDataClass.swift */,
+				E782E6B22722AE2D00E96142 /* Member+CoreDataProperties.swift */,
 				E782E66C27228FA900E96142 /* ExamToroApp */,
 				E782E68627228FAD00E96142 /* ExamToroAppTests */,
 				E782E69027228FAD00E96142 /* ExamToroAppUITests */,
@@ -104,6 +128,8 @@
 			isa = PBXGroup;
 			children = (
 				E782E6A02722901900E96142 /* Member */,
+				E73EFF7E27267BEF0070B805 /* Extensions */,
+				E782E6B52722C2C000E96142 /* Structs */,
 				E782E66D27228FA900E96142 /* AppDelegate.swift */,
 				E782E66F27228FA900E96142 /* SceneDelegate.swift */,
 				E782E67127228FA900E96142 /* ViewController.swift */,
@@ -112,6 +138,7 @@
 				E782E67B27228FAC00E96142 /* LaunchScreen.storyboard */,
 				E782E67E27228FAC00E96142 /* Info.plist */,
 				E782E67627228FA900E96142 /* ExamToroApp.xcdatamodeld */,
+				E73EFF8527269B860070B805 /* Localizable.strings */,
 			);
 			path = ExamToroApp;
 			sourceTree = "<group>";
@@ -137,8 +164,18 @@
 			isa = PBXGroup;
 			children = (
 				E782E6A12722902400E96142 /* MemberViewController.swift */,
+				E782E6A3272299F300E96142 /* MemberFormViewController.swift */,
+				E782E6AF2722A8EE00E96142 /* MemberTableViewCell.swift */,
 			);
 			path = Member;
+			sourceTree = "<group>";
+		};
+		E782E6B52722C2C000E96142 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				E782E6B62722C2E300E96142 /* Genders.swift */,
+			);
+			path = Structs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E782E67D27228FAC00E96142 /* LaunchScreen.storyboard in Resources */,
+				E73EFF8327269B860070B805 /* Localizable.strings in Resources */,
 				E782E67A27228FAC00E96142 /* Assets.xcassets in Resources */,
 				E782E67527228FA900E96142 /* Main.storyboard in Resources */,
 			);
@@ -272,9 +310,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E782E6A4272299F300E96142 /* MemberFormViewController.swift in Sources */,
+				E782E6B32722AE2D00E96142 /* Member+CoreDataClass.swift in Sources */,
 				E782E67827228FA900E96142 /* ExamToroApp.xcdatamodeld in Sources */,
+				E73EFF8027267C250070B805 /* UIViewController.swift in Sources */,
 				E782E67227228FA900E96142 /* ViewController.swift in Sources */,
+				E782E6B02722A8EE00E96142 /* MemberTableViewCell.swift in Sources */,
 				E782E66E27228FA900E96142 /* AppDelegate.swift in Sources */,
+				E782E6B72722C2E400E96142 /* Genders.swift in Sources */,
+				E782E6B42722AE2D00E96142 /* Member+CoreDataProperties.swift in Sources */,
 				E782E6A22722902400E96142 /* MemberViewController.swift in Sources */,
 				E782E67027228FA900E96142 /* SceneDelegate.swift in Sources */,
 			);
@@ -313,6 +357,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		E73EFF8527269B860070B805 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E73EFF8427269B860070B805 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		E782E67327228FA900E96142 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

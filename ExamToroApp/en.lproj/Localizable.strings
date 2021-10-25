@@ -1,0 +1,20 @@
+"TitleList" = "List";
+"TitleAdd" = "Add";
+"TitleEdit" = "Edit";
+
+"BtnAdd" = "Add";
+"BtnEdit" = "Edit";
+"BtnDelete" = "Delete";
+"BtnCancel" = "Cancel";
+"BtnOk" = "Ok";
+
+"GenderFemale" = "Female";
+"GenderMale" = "Male";
+
+"NamePlaceholder" = "Please enter your name";
+"AgePlaceholder" = "Please enter your age";
+"GenderPlaceholder" = "Please enter your gender";
+
+"ValidNotBlankName" = "Please enter your name";
+"ValidNotBlankAge" = "Please enter your age";
+"ValidNotBlankGender" = "Please enter your gender";
